@@ -17,3 +17,5 @@ $('div').click(handleClick);
 setInterval(addRandomSmiley, 2000);
 
 addRandomSmiley();
+
+$('div').addClass('smiley');
