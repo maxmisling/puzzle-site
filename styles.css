@@ -1,4 +1,4 @@
-h1{
+h1 {
   font-family: Courier, Arial, sans-serif;
   color: #33cc33;
   font-size: 50px;
@@ -6,13 +6,7 @@ h1{
   text-decoration: underline overline;
 }
 
-h2{
-  font-family: Courier, Arial, sans-serif;
-  letter-spacing: 8px;
-  color: #33cc33;
-}
-
-h1, h2, p {
+h1, p {
   text-align: center;
   color: #33cc33;
 }
@@ -21,7 +15,7 @@ body {
   background-color: lightblue;
 }
 
-section{
+section {
   height: 300px;
   width:300px;
   display: grid;
@@ -30,7 +24,7 @@ section{
   margin: 0 auto;
 }
 
-div{
+div {
   border: solid #33cc33 2px;
 }
 
