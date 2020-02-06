@@ -18,4 +18,4 @@ setInterval(addRandomSmiley, 2000);
 
 addRandomSmiley();
 
-$('div').addClass('smiley');
+<p id="demo">A Paragraph.</p>
