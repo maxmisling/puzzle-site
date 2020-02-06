@@ -1,0 +1,47 @@
+h1{
+  font-family: Courier, Arial, sans-serif;
+  color: #33cc33;
+  font-size: 50px;
+  text-align: center;
+  text-decoration: underline overline;
+}
+
+h2{
+  font-family: Courier, Arial, sans-serif;
+  letter-spacing: 8px;
+  color: #33cc33;
+}
+
+h1, h2, p {
+  text-align: center;
+  color: #33cc33;
+}
+
+body {
+  background-color: lightblue;
+}
+
+section{
+  height: 300px;
+  width:300px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  margin: 0 auto;
+}
+
+div{
+  border: solid #33cc33 2px;
+}
+
+.smiley {
+  background-image: url("http://placekitten.com/200/300");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.win {
+  background-image: url("https://www.placecage.com/c/200/300");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
